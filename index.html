@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="Logo" id="logo">
+        <h1>Veterinário</h1>
+        <h2>Caixa</h2>
+    </header>
+    <main>
+        <section>
+            <form action="">
+                <div>
+                    <label>Valor da Compra:</label>
+                    <input type="number" name="valor" id="valor" placeholder="R$">
+                </div>
+                <div>
+                    <label>Possui Convênio:</label>
+                    <input type="radio" name="conv" id="sim">Sim
+                    <input type="radio" name="conv" id="nao">Não
+                </div>
+                <div>
+                    <label>Selecione o Convênio:</label>
+                    <select name="convenio" id="convenio">
+                        <option selected disabled value=""></option>
+                        <option>amigo dos animais</option>
+                        <option>saúde animal</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="button" value="Calcular Desconto" id="calcular">
+                </div>
+                <div id="res">
+                    
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+body{
+    margin: 4px;
+}
+
+header{
+    text-align: center;
+    background-color: rgba(61, 153, 61, 0.747);
+    height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+    font-size: 1.1em;
+    font-weight: bolder;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.651);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 8px 5px 10px rgba(0, 0, 0, 0.589);
+}
+
+header > h2{
+    text-decoration: underline;
+}
+
+#logo{
+    width: 150px;
+    float: left;
+}
+
+main{
+    max-width: 80%;
+    background-color: antiquewhite;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
+    border-radius: 0px 0px 10px 10px;
+    font-size: 1.2em;
+}
+
+div{
+    margin: 10px;
+}
+
+#convenio{
+    font-size: 1em;
+}
+
+#valor{
+    width: 150px;
+    height: 28px;
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+
+#calcular{
+    font-size: 1em;
+}
